@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <script src="https://kit.fontawesome.com/47d12d955b.js" crossorigin="anonymous"></script>
+    <title>Registrarse</title>
+</head>
+
+<body style="background-color: #e4e2e2; height: 0.3vh">
+    <div class="contenido">
+        <div class="login shadow-box">
+            <div class="banner">
+                <img src="img/logo900p.png" alt="">
+            </div>
+            <div class="container">
+                <form class="form-i" method="POST" action="/registrarse">
+                    <label class="lb2">Registrarse</label>
+                    <div class="container-2 form-i">
+                        <label for="Nombre" class="lb3">Nombre</label>
+                        <input type="text" name="name" id="nombre" placeholder="Luis.." require>
+                        <label for="email" class="lb3">Correo</label>
+                        <input type="email" name="email" id="correo" placeholder="Correo" require>
+                        <label for="phone" class="lb3">telefono</label>
+                        <input type="tel" name="phone" id="telefono" placeholder="302999372" require>
+                        <label for="password" class="lb3">Contraseña</label>
+                        <input type="password" name="password" id="contraseña" placeholder="Contraseña" require>
+                        <div class="c-forgot">
+                            <a href="/login" class="olvidar">Iniciar Sesión</a>
+                        </div>
+                        <button type="submit" class="btn-log">Registrarse</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

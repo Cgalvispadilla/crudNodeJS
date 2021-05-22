@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/47d12d955b.js" crossorigin="anonymous"></script>
+    <title>Log-in</title>
+</head>
+
+<body style="background-color: #e4e2e2; height: 100vh">
+    <div class="contenido">
+        <div class="login shadow-box">
+            <div class="banner">
+                <img src="img/logo900p.png" alt="">
+            </div>
+            <div class="container">
+                <form class="form-i" method="POST" action="/login">
+                    <label class="lb2">Iniciar Sesión</label>
+                    <div class="container-2 form-i">
+                        <label for="email" class="lb3">Correo</label>
+                        <input type="email" name="email" id="correo" placeholder="Correo" require>
+                        <label for="password" class="lb3">Contraseña</label>
+                        <input type="password" name="password" id="contraseña" placeholder="Contraseña" require>
+                        <div class="c-forgot">
+                            <a href="" class="olvidar">¿Olvidaste tu contraseña?</a>
+                            <a href="/registrarse" class="olvidar">Registrarse</a>
+                        </div>
+                        <button type="submit" class="btn-log">Iniciar Sesión</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
